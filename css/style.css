@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/adventure-alps-background-547114.jpg) no-repeat center center fixed;
+	background-size: cover;
+	/*font-family: sans-serif;*/	
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+}
+
+.login{
+	width: 320px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.6); 
+	color: #fff;
+	padding: 0 30px;
+	left: 50%;
+	margin: auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+}
+.login .avatar{
+	width: 100px;
+	height: 100px;
+	margin-top: -200px;
+	margin-left: 80px;
+	border-radius: 50%;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login input{
+	width: 100%;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.login input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	font-size: 16px;
+}
+
+.login input[type="submit"]{
+	font-size: 20px;
+	text-transform: uppercase;
+	border: none;
+	height: 40px;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	padding:6px 24px;
+	text-decoration:none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.login input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.login input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
+
+.login input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #ffc107;
+}
+
+.login a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.login a:hover{
+	color: #ffc107;
+}
+
+footer{
+	text-align: right;
+	position: absolute;	
+	margin-right: 50px;
+	color: #fff;
+	height: 50px;
+	padding-top: 22px;
+	bottom: 0;
+	width: 100%;
+}
+footer p{
+	margin-right: 20px;
+}
